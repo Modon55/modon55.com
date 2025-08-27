@@ -12,7 +12,7 @@
 
 ---
 
-## ✨ Features
+## ✨ Website features
 - ⚡ Built with **HTML, CSS & JavaScript**
 - 📱 Fully **responsive design** (Flexbox + Grid)
 - 🧩 Effective JavaScript functions (developed with assistance & code review)
@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠 About this Project
+## 🛠 About the project
 This website was a personal **web development** project.  
 
 💡 For extended CSS and JavaScript features, I collaborated with others.  

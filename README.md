@@ -2,7 +2,6 @@
 
 <p align="center">
   <b>My personal landing page built with HTML & CSS</b><br/>
-  Responsive • Clean Design • Self-Hosted
 </p>
 
 <p align="center">

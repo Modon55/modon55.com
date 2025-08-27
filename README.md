@@ -23,7 +23,7 @@
 ## 🛠 About the project
 This website was a personal **web development** project created to test and improve my skills.
 
-💡 For extended CSS and JavaScript features, I collaborated with others.
+💡 For extended CSS and JavaScript features, I collaborated with others.<br>
 This gave me valuable experience in teamwork and code review. 
 
 ---

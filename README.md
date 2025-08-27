@@ -35,3 +35,10 @@ This gave me valuable experience in teamwork and code review.
 | `style.css`   | Core style |
 | `script.js`   | Interactive features & effects |
 | `feed/`       | Assets |
+
+---
+
+## 📬 Contact
+- GitHub: [github.com/Modon55](https://github.com/Modon55)  
+- Website: [modon55.com](https://modon55.com)  
+- Email: modon55@gmx.de

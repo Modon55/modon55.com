@@ -34,4 +34,4 @@ Ideal to gave me valuable experience in **teamwork** and **code review**.
 | `index.html`  | Main structure of the website |
 | `style.css`   | Core style |
 | `script.js`   | Interactive features & effects |
-| `Feed/`       | Assets |
+| `feed/`       | Assets |

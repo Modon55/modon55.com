@@ -1,19 +1,19 @@
 <h1 align="center">🌐 modon55.com</h1>
 
 <p align="center">
-  <b>My personal landing page built with HTML & CSS</b><br/>
+  <b>Personal landing page built with HTML & CSS</b><br/>
 </p>
 
 <p align="center">
   <a href="https://modon55.com" target="_blank">
-    🔗 Live Demo
+    🔗 Click here for live Demo
   </a>
 </p>
 
 ---
 
 ## ✨ Features
-- ⚡ Built with **HTML & CSS**
+- ⚡ Built with **HTML, CSS & JavaScript**
 - 📱 Fully **responsive design** (Flexbox + Grid)
 - 🧩 Effective JavaScript functions (developed with assistance & code review)
 - 🔒 **Self-hosted** with custom domain & SSL secured
@@ -21,10 +21,10 @@
 ---
 
 ## 🛠 About this Project
-This project reflects my passion for **web development**.  
+This website was a personal **web development** project.  
 
 💡 For extended CSS and JavaScript features, I collaborated with others.  
-This gave me valuable experience in **teamwork** and **code review**.  
+Ideal to gave me valuable experience in **teamwork** and **code review**.  
 
 ---
 

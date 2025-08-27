@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Personal Website – modon55.com</h1>
+<h1 align="center">🌐 modon55.com</h1>
 
 <p align="center">
   <b>My personal landing page built with HTML & CSS</b><br/>

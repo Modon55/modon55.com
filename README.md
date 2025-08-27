@@ -34,5 +34,5 @@ This gave me valuable experience in **teamwork** and **code review**.
 |---------------|-------------|
 | `index.html`  | Main structure of the website |
 | `style.css`   | Core styling (responsive, dark/light mode) |
-| `/assets`     | Images, icons, fonts |
+| `/Feed`       | Assets |
 | `script.js`   | Small interactive features |

@@ -33,6 +33,6 @@ This gave me valuable experience in **teamwork** and **code review**.
 | File / Folder | Description |
 |---------------|-------------|
 | `index.html`  | Main structure of the website |
-| `style.css`   | Core styling (responsive, dark/light mode) |
+| `style.css`   | Core style |
+| `script.js`   | Interactive features & effects |
 | `/Feed`       | Assets |
-| `script.js`   | Small interactive features |

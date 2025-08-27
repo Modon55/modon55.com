@@ -1,7 +1,7 @@
 <h1 align="center">🌐 www.modon55.com</h1>
 
 <p align="center">
-  <b>Personal landing page built with HTML & CSS</b><br/>
+  <b>Personal landing page built with HTML, CSS & JavaScript</b><br/>
 </p>
 
 <p align="center">

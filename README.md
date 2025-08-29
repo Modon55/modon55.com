@@ -1,7 +1,7 @@
 <h1 align="center">🌐 www.modon55.com</h1>
 
 <p align="center">
-  <b>Personal landing page built with HTML, CSS & JavaScript</b><br/>
+  <b>Personal landing page built with HTML, CSS & JavaScript</b><br />
 </p>
 
 <p align="center">
@@ -16,14 +16,14 @@
 - ⚡ Built with **HTML, CSS & JavaScript**
 - 📱 Fully **responsive design** (Flexbox + Grid)
 - 🧩 Effective JavaScript functions (developed with assistance & code review)
-- 🔒 **Self-hosted** with custom domain & SSL secured
+- 🔒 **Self-hosted** on Linux (Ubuntu) with custom domain & SSL secured
 
 ---
 
 ## 🛠 About the project
-This website was a personal **web development** project created to test and improve my skills.
+This website was a personal **web development** project created to practice and expand my skills.<br />
 
-💡 For extended CSS and JavaScript features, I collaborated with others.<br>
+💡 For extended CSS and JavaScript features, I collaborated with others.<br />
 This gave me valuable experience in teamwork and code review. 
 
 ---
@@ -39,6 +39,6 @@ This gave me valuable experience in teamwork and code review.
 ---
 
 ## 📬 Contact
-- GitHub: [github.com/Modon55](https://github.com/Modon55)  
+- GitHub profile: [github.com/Modon55](https://github.com/Modon55)  
 - Website: [modon55.com](https://modon55.com)  
 - Email: modon55@gmx.de

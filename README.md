@@ -14,7 +14,7 @@
 
 ## ✨ Website features
 - ⚡ Built with **HTML, CSS & JavaScript**
-- 📱 Fully **responsive design** (Flexbox + Grid)
+- 📱 **Responsive design** (Flexbox + Grid)
 - 🧩 Effective JavaScript functions (developed with assistance & code review)
 - 🔒 **Self-hosted** on Linux (Ubuntu) with custom domain & SSL secured
 

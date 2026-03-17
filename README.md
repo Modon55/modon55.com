@@ -30,7 +30,7 @@ This website was a personal **web development** project created to practice and 
 ## 📂 Project Structure
 | File / Folder | Description |
 |---------------|-------------|
-| `feed/`       | Assets |
+| `Feed/`       | Assets |
 | `index.html`  | Main structure of the website |
 | `style.css`   | Core style |
 | `script.js`   | Interactive features & effects |

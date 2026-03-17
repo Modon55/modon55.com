@@ -39,5 +39,4 @@ This website was a personal **web development** project created to practice and 
 
 ## 📬 Contact
 - GitHub profile: [github.com/Modon55](https://github.com/Modon55)  
-- Website: [modon55.com](https://modon55.com)  
 - Email: modon55@gmx.de

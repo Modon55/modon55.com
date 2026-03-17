@@ -1,3 +1,7 @@
+// ============================= //
+//          script.js            //
+// ============================= //
+
 (function(){
   const BASE_SPEED  = 0.7;
   const NOISE       = 0.0012;
@@ -8,8 +12,7 @@
   const LINE_WIDTH  = 0.55;
   const LINE_ALPHA  = 0.2;
 
-  const y = document.getElementById('year');
-  if (y) y.textContent = new Date().getFullYear();
+  document.getElementById("copyright-year").textContent = new Date().getFullYear();
 
   const params = new URLSearchParams(location.search);
   const linkMap = { yt: 'yt', tw: 'tw', don: 'don' };
@@ -258,4 +261,13 @@ if (letters.length) {
       }
     })();
   });
+
+  // Local editor
+  if (window.location.protocol === 'file:') {
+    const badge = document.createElement('div');
+    badge.id = 'localEditing';
+    badge.textContent = 'Local Editing Mode';
+    badge.style.display = 'block';
+    document.body.appendChild(badge);
+  }
 }

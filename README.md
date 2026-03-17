@@ -14,17 +14,16 @@
 
 ## ✨ Website features
 - ⚡ Built with **HTML, CSS & JavaScript**
-- 📱 **Responsive design** (Flexbox + Grid)
+- 📱 **Responsive design**
 - 🧩 Effective JavaScript functions (developed with assistance & code review)
-- 🔒 **Self-hosted** on Linux (Ubuntu) with custom domain & SSL secured
+- 🔒 **Hosted** on root
 
 ---
 
-## 🛠 About the project
+## 🛠 About
 This website was a personal **web development** project created to practice and expand my skills.<br />
 
 💡 For extended CSS and JavaScript features, I collaborated with others.<br />
-This gave me valuable experience in teamwork and code review. 
 
 ---
 

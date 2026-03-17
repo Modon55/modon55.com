@@ -31,9 +31,9 @@ This website was a personal **web development** project created to practice and 
 | File / Folder | Description |
 |---------------|-------------|
 | `Feed/`       | Assets |
-| `index.html`  | Main structure of the website |
+| `index.html`  | Main structure |
 | `style.css`   | Core style |
-| `script.js`   | Interactive features & effects |
+| `script.js`   | Interactive features |
 
 ---
 

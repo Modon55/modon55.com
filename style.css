@@ -1,3 +1,7 @@
+/* ============================= */
+/*          style.css            */
+/* ============================= */
+
 :root {
   --bg: #0b0b0d;
   --red: #d90429;
@@ -46,8 +50,12 @@ body {
 }
 
 @keyframes drift {
-  from { transform: translateY(-2%) rotate(-2deg); }
-  to   { transform: translateY( 2%) rotate( 2deg); }
+  from { 
+    transform: translateY(-2%) rotate(-2deg); 
+  }
+  to {
+     transform: translateY( 2%) rotate( 2deg); 
+    }
 }
 
 .noise {
@@ -92,8 +100,48 @@ body {
 }
 
 @keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50%      { transform: scale(1.04); }
+  0%, 100% { 
+    transform: scale(1); 
+  }
+  50% { 
+    transform: scale(1.04); 
+  }
+}
+
+#localEditing {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  background-color: rgba(255, 255, 0, 0.1);
+  padding: 7px 15px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 16px;
+  color: var(--bg);
+  cursor: default;
+  display: none;
+  user-select: none;
+  text-transform: uppercase;
+  transition: background-color 0.18s ease;
+}
+
+#localEditing:hover {
+  background-color: rgba(255, 255, 0, 1);
+  text-decoration: none;
+}
+
+.inform {
+  color: var(--bg);
+  background-color: #ff0;
+  padding: 7px;
+  border-radius: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.inform:hover {
+  background-color: #fe0;
+  text-decoration: underline;
 }
 
 .glitch {
@@ -187,8 +235,13 @@ body {
   box-shadow: 0 14px 48px rgba(255, 79, 124, 0.32);
 }
 
-.btn:hover { transform: translateY(-2px); }
-.btn:active { transform: translateY(0); box-shadow: none; }
+.btn:hover { 
+  transform: translateY(-2px); 
+}
+
+.btn:active { 
+  transform: translateY(0); box-shadow: none; 
+}
 
 .foot {
   margin-top: 10px;
@@ -243,14 +296,13 @@ body {
 
 .glitch span.lamp-off {
   text-shadow:
-    0 0 2px rgba(217, 4, 41, 0),    /* Blank */
-    0 0 6px rgba(217, 4, 41, 0);    /* Blank */
+    0 0 2px rgba(217, 4, 41, 0),    /* ! Blank ! */
+    0 0 6px rgba(217, 4, 41, 0);    /* ! Blank ! */
 }
 
 .glitch span.hum {
   animation: bulbHum 3s ease-in-out infinite;
 }
-
 
 @keyframes bulbHum {
   0%, 100% {

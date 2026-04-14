@@ -17,8 +17,8 @@
 This project was built in collaboration with friends as a way to learn, experiment, and improve our frontend development skills.
 
 * **Frontend:** Designed and structured by me (HTML & CSS).
-* **JavaScript:** Implemented with the help of friends who supported me with the logic.
-* **Goal:** A personal project frontend development and build an online presence.
+* **JavaScript:** Implemented to add dynamic functionality and interactivity.
+* **Goal:** A personal frontend development project and build a personal web presence.
 
 ---
 

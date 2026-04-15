@@ -248,6 +248,14 @@ body {
   --my: 50%;
 }
 
+.brand-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 10px 0 0;
+  flex-shrink: 0;
+  fill: currentColor;
+}
+
 .btn.primary {
   background: linear-gradient(180deg, var(--red2), var(--red));
   box-shadow: 0 20px 60px rgba(217, 4, 41, 0.35);

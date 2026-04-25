@@ -271,7 +271,6 @@ if (letters.length) {
   }
 }
 
-
 // Cursor hover (experimental)
 
 document.querySelectorAll('.btn').forEach(btn => {
@@ -310,3 +309,78 @@ document.querySelectorAll('.btn').forEach(btn => {
 
   animate();
 });
+
+const headerElement = document.querySelector('.glitch');
+
+let isCopying = false;
+let toastTimeout;
+
+if (headerElement) {
+  headerElement.addEventListener('dblclick', async () => {
+
+    if (isCopying) return;
+    const textToCopy = headerElement.getAttribute('data-text');
+    if (!textToCopy) return;
+
+    try {
+      isCopying = true;
+      await navigator.clipboard.writeText(textToCopy);
+      showToast();
+    } catch (err) {
+      // console.error('Copy failure: ', err);
+      isCopying = false;
+    }
+  });
+}
+
+function showToast() {
+  const existingToast = document.getElementById('copy-toast');
+  if (existingToast) {
+    existingToast.remove();
+    clearTimeout(toastTimeout);
+  }
+
+  const lang = navigator.language || 'en';
+  const msg = lang.startsWith('de') 
+    ? 'In die Zwischenablage kopiert.' 
+    : 'Copied to clipboard.';
+
+  const toast = document.createElement('div');
+  toast.id = 'copy-toast';
+  toast.textContent = msg;
+  
+  Object.assign(toast.style, {
+    position: 'fixed',
+    top: '20px',
+    left: '50%',
+    transform: 'translateX(-50%) translateY(-20px)',
+    backgroundColor: 'rgba(217, 4, 41, 0.95)',
+    color: '#fff',
+    padding: '12px 24px',
+    borderRadius: '12px',
+    fontSize: '14px',
+    fontWeight: 'bold',
+    zIndex: '10000',
+    opacity: '0',
+    transition: 'all 0.4s cubic-bezier(0.18, 0.89, 0.32, 1.28)',
+    pointerEvents: 'none',
+    boxShadow: '0 10px 30px rgba(217, 4, 41, 0.4)'
+  });
+
+  document.body.appendChild(toast);
+
+  requestAnimationFrame(() => {
+    toast.style.opacity = '1';
+    toast.style.transform = 'translateX(-50%) translateY(0)';
+  });
+
+  toastTimeout = setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateX(-50%) translateY(-10px)';
+    
+    setTimeout(() => {
+      toast.remove();
+      isCopying = false;
+    }, 400); 
+  }, 2500);
+}
